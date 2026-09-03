@@ -57,7 +57,7 @@
   }
 
   article p{margin:0 0 1.4rem;}
-  article > p:first-of-type::first-letter{
+  article > p:not(.byline):not(.intro-note):first-of-type::first-letter{
     float:left;font-weight:500;color:var(--accent);
     font-size:4.1rem;line-height:.72;padding:.35rem .5rem 0 0;
   }
